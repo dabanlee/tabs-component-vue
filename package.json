@@ -1,0 +1,35 @@
+{
+  "name": "tabs-component-vue",
+  "moduleName": "Tabs",
+  "version": "0.1.0",
+  "description": "tab component for vue.",
+  "main": "dist/tabs-component-vue.js",
+  "module": "dist/tabs-component-vue.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "rm -rf dist && rollup -w -c rollup.config.js",
+    "dev": "rollup -c rollup.config.js",
+    "prod": "rollup -c rollup.config.js",
+    "build": "rm -rf dist && npm run dev && npm run prod"
+  },
+  "repository": {
+    "url": "https://github.com/dabanlee/tabs-component-vue.git",
+    "type": "git"
+  },
+  "author": "大板栗 <576839360@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "rollup": "^2.34.2",
+    "rollup-plugin-css-only": "^3.0.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.2",
+    "vue": "^3.0.4"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.4"
+  }
+}

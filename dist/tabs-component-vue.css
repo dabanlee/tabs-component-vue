@@ -1,0 +1,35 @@
+
+.tab-component-vue {
+  color: #333;
+}
+
+.tabs-component-vue {
+  color: #333;
+}
+.tabs-component-header {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.tabs-component-header.flex-start {
+  justify-content: flex-start;
+}
+.tabs-component-header.flex-end {
+  justify-content: flex-end;
+}
+.tabs-component-header.center {
+  justify-content: center;
+}
+.tabs-component-header.space-between {
+  justify-content: space-between;
+}
+.tabs-component-header.space-around {
+  justify-content: space-around;
+}
+.tab-name {
+  cursor: pointer;
+  width: 100%;
+}
+.tab-name.tab-name-active {
+  background: #ddd;
+}
