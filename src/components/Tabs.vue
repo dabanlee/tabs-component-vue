@@ -61,7 +61,7 @@ export default defineComponent({
       switchTab(0)
     })
 
-    return { ...toRefs(state), onTab }
+    return { ...toRefs(state), onTab, switchTab }
   },
 })
 </script>
